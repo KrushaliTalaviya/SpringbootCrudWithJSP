@@ -1,0 +1,61 @@
+.form-submit{
+    margin-right: 8px;
+}
+body{
+	font-size: 14px;
+}
+label{
+	text-transform: none;
+}
+.label{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: -2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #435d7d;
+}
+.label i{
+	margin-left: 50%;
+	color: white;
+}
+.signup-form{
+
+    padding-top: 30px;
+    height: 670px;
+}
+.help-block{
+    font-weight: 500;
+    color:   #777777ad;
+    margin-top: 0px;
+
+}
+label.error{
+    position: static;
+    color: red;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+     color: #7777778c;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+      color: #7777778c;
+}
+#birth_date label.error:after{
+    right: 51px;
+}
+body{
+	 background: #F5F5F5;
+	 padding: 69px 0;
+}
+.swal2-styled.swal2-confirm {
+	    background-color: #1da0f2;
+}
+label.error:after{
+	right: 17px;
+}
+
