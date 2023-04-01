@@ -58,7 +58,7 @@ uri="http://java.sun.com/jsp/jstl/core"%> <%@page isELIgnored="false"%>
 						<tbody>
 							<c:forEach var="customer" items="${customerList}">
 								<tr>
-									<th style = "display: none;	">${customer.id}</th>
+									<th style = "display: none;">${customer.id}</th>
 									<td style="width: 13%;">${customer.firstName} ${customer.lastName }</td>
 									<td>${customer.dateOfBirth}</td>
 									<td>${customer.mobileNo}</td>
